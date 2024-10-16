@@ -3,4 +3,7 @@ project(is_os_tp3 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(is_os_tp3 main.c)
+
+add_executable(is_os_tp3
+        main.c
+        "Ressoures FS-20241016/tosfs.h")

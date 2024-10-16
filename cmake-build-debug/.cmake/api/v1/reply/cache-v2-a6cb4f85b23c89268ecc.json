@@ -154,6 +154,18 @@
 			"value" : "/bin/g++"
 		},
 		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "\u201c\u201d"
+				}
+			],
+			"type" : "STRING",
+			"value" : "\u201c-D_FILE_OFFSET_BITS=64\u201d"
+		},
+		{
 			"name" : "CMAKE_C_COMPILER",
 			"properties" : 
 			[
@@ -163,10 +175,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "/bin/gcc"
 		},
 		{
